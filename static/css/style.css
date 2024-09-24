@@ -1,0 +1,40 @@
+.main{
+    text-align: center;
+}
+.header_main{
+    text-align: center;
+    margin-top: 150px;
+    margin: 50px;
+    background-color: black;
+}
+.image-header{
+    margin-right: 1186px;
+}
+.button{
+    background-color: aqua;
+
+}
+.sr-only{
+    background-color: aqua;
+    text-align: center;
+}
+.contact-main{
+    text-align: center;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.contact{
+    text-align: center;
+}
+.image-contact{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+.form-contact{
+    text-align: center;
+}
+.text-nav{
+    display: flex;
+    justify-content: end;
+}

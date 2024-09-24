@@ -1,0 +1,20 @@
+{% load static %}
+
+<header class="header_main" data-spy="affix">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img class="image-header" src="{{ base.logo.url }}" width="100px" height="100px">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#coffee-menu"
+                    aria-expanded="false">
+                    <span class="sr-only">RabbitMQ Project</span>
+                </button>
+            </div>
+            <nav class="text-nav">
+                <span class="text">Главная</span>
+                <a class="main" href="{% url 'base' %}">Главная</a>
+                <a class="contact" href="{% url 'contact' %}">Наши контакты</a>
+            </nav>
+        </div>
+    </div>
+</header>
